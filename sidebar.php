@@ -3,7 +3,7 @@
     .custom-element {
       background-color: #086b61;
       color: #d2e2df;
-      font-weight: bold;
+      font-weight: 500;
     }
     a {
       color: #d2e2df;
@@ -15,8 +15,8 @@
   </style>
     <div class="aside-wrapper">
         <a href="<?php $this->options->siteUrl(); ?>" class="aside-brand d-none d-xl-flex custom-element" rel="home">
-            <img src="<?php empty($this->options->biglogo) ? $this->options->themeUrl('/assets/image/head.png') : $this->options->biglogo(); ?>" class="logo nc-no-lazy" alt="<?php $this->options->title(); ?>">
-            <img src="<?php empty($this->options->smalllogo) ? $this->options->themeUrl('/assets/image/favicon.ico') : $this->options->smalllogo(); ?>" class="logo-sm nc-no-lazy" alt="<?php $this->options->title(); ?>">
+            <img src="<?php empty($this->options->biglogo) ? $this->options->themeUrl('/assets/image/big-logo.png') : $this->options->biglogo(); ?>" class="logo nc-no-lazy" alt="<?php $this->options->title(); ?>" width="150px" height="30px">
+            <img src="<?php empty($this->options->smalllogo) ? $this->options->themeUrl('/assets/image/small-logo.png') : $this->options->smalllogo(); ?>" class="logo-sm nc-no-lazy" alt="<?php $this->options->title(); ?>">
         </a>
         <div class="aside-scroll scrollable hover">
             <ul class="aside-menu">

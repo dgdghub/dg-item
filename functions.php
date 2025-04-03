@@ -28,7 +28,7 @@ function themeConfig($form)
 
     //网站图标
     $form->addInput(
-        new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, $options->themeUrl . '/assets/image/favicon.ico', _t('网站图标'), _t('建议使用CDN'))
+        new Typecho_Widget_Helper_Form_Element_Text('favicon', NULL, $options->themeUrl . '/assets/image/fav.png', _t('网站图标'), _t('建议使用CDN'))
     );
 
     //Favicon API选择
@@ -62,12 +62,12 @@ function themeConfig($form)
 
     //首页大logo
     $form->addInput(
-        new Typecho_Widget_Helper_Form_Element_Text('biglogo', NULL, $options->themeUrl . '/assets/image/head.png', _t('首页大logo'), _t('侧边展开时的图标，建议使用CDN或图床'))
+        new Typecho_Widget_Helper_Form_Element_Text('biglogo', NULL, $options->themeUrl . '/assets/image/big-logo.png', _t('首页大logo'), _t('侧边展开时的图标，建议使用CDN或图床'))
     );
 
     //首页小logo
     $form->addInput(
-        new Typecho_Widget_Helper_Form_Element_Text('smalllogo', NULL, $options->themeUrl . '/assets/image/favicon.ico', _t('首页小logo'), _t('侧边栏收缩时的图标，建议使用CDN或图床'))
+        new Typecho_Widget_Helper_Form_Element_Text('smalllogo', NULL, $options->themeUrl . '/assets/image/fav.png', _t('首页小logo'), _t('侧边栏收缩时的图标，建议使用CDN或图床'))
     );
 
 

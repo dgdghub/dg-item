@@ -3,7 +3,7 @@
     .custom-element {
       background-color: #086b61;
       color: #d2e2df;
-      font-weight: bold;
+      font-weight: 500;
     }
     a {
       color: #d2e2df;
@@ -15,7 +15,7 @@
   </style>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid custom-element">
-      <a href="<?php $this->options->siteUrl(); ?>" class="navbar-brand d-xl-none" rel="home"><img src="<?php empty($this->options->biglogo) ? $this->options->themeUrl('/assets/image/head.png') : $this->options->biglogo(); ?>" class="logo nc-no-lazy" alt="<?php $this->options->title(); ?>"></a>
+      <a href="<?php $this->options->siteUrl(); ?>" class="navbar-brand d-xl-none" rel="home"><img src="<?php empty($this->options->biglogo) ? $this->options->themeUrl('/assets/image/big-logo.png') : $this->options->biglogo(); ?>" class="logo nc-no-lazy" alt="<?php $this->options->title(); ?>"></a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav navbar-site me-auto ms-5 ms-xl-0">
           <?php

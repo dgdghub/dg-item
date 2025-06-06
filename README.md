@@ -117,13 +117,6 @@ docker compose up -d
 
 ---
 
-<!-- CONTACT -->
-<h2 id='3'>💬 问题反馈</h2>
-
-Issues - [https://github.com/fordes123/ITEM/issues](https://github.com/fordes123/ITEM/issues)
-
-博客 - [https://fordes.dev](https://fordes.dev)
-
 ---
 
 <!-- LICENSE -->

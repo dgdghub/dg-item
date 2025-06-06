@@ -18,9 +18,9 @@
 - MySQL 8+
 
 1. 获取主题文件
-   克隆仓库源码或下载最新 [Releases](https://github.com/fordes123/ITEM/releases)，
+   克隆仓库源码或下载最新 [Releases](https://github.com/dgdghub/dg-item.git)，
    ```shell
-   git clone https://github.com/fordes123/ITEM.git
+   git clone https://github.com/dgdghub/dg-item.git
    ```
 2. 将主题文件重名为 <code>ITEM</code> 并移动至 Typecho 根目录<code>usr/themes</code> 文件夹中
 3. 在 Typecho 管理面板中选择更换外观并启用主题
